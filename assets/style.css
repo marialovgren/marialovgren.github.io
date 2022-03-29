@@ -28,6 +28,10 @@ body {
     color: #173A52;
 }
 
+.beige-font {
+    color: #F5EFED;
+}
+
 .bold-font {
     font-weight: 600;
 }
@@ -74,3 +78,21 @@ header nav {
 }
 
 /** Main **/
+.info-card {
+    background-color: white;
+    border: solid 4px #E6D7C3;
+    border-radius: 2em;
+    margin-bottom: 1.5em
+}
+
+.btn-container {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.card {
+    border-bottom: #E6D7C3 4px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
