@@ -86,7 +86,7 @@ header nav {
 }
 
 /** Main **/
-.info-card {
+.info-card, .skills-card {
     background-color: white;
     border: solid 4px #E6D7C3;
     border-radius: 2em;
@@ -136,4 +136,19 @@ header nav {
     padding: 0.5em;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.skill-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    justify-content: center;
+}
+
+.skill-img-wrapper {
+    height: 50px;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
