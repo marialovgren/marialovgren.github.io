@@ -72,7 +72,7 @@ body {
 
 /** Header **/
 header nav {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .nav-style {
@@ -82,7 +82,7 @@ header nav {
 
 .nav-style:hover {
     color: black;
-    font-size: 27px;
+    font-size: 21px;
 }
 
 /** Main **/
