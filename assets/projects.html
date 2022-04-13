@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap 5.1 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Styles -->
+	<link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+
+    <title>Maria Lövgren || Projects</title>
+</head>
+<body class="wrapper bg-white">
+
+    <header>    
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-beige">
+
+             <div class="container-fluid col-md-11"> 
+                <div class="col-3 col-md-2">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center">
+                        <img src="logos/maria-logo-transparent.png" alt="Logo" class="d-inline-block img-float col-12">
+                    </a>
+                </div>
+   
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="index.html">Start</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="about.html">About me</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="contact.html">Contact me</a>
+                        </li>
+                    </ul> 
+                </div>                  
+            </div> 
+        </nav>
+    </header>
+
+    <main>
+
+    <section class="my-5 py-5">
+        <div class="d-flex justify-content-center pt-5">
+            <h1 class="dark-blue-font f-size-2 "><span class="bold-font">MY</span>
+                PROJECTS</h1>
+        </div>
+
+        <div class="container">
+            <div class="project-wrapper d-flex flex-column flex-md-row flex-wrap">
+
+                <!-- Project 1 -->
+                <article class="card card-border col-12 col-md-6 my-4">
+                    <div class="my-2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="col-11">
+                                <img class="img-float col-12" src="../assets/images/kill_the_virus_screenshot.jpg" alt="project image">
+                            </div>
+
+                            <div class="col-11 my-4 d-flex flex-wrap">
+                                <span class="tools">Node.JS</span>
+                                <span class="tools">Express</span>
+                                <span class="tools">Socket.io</span>
+                                <span class="tools">JavaScript</span>
+                                <span class="tools">HTML</span>
+                                <span class="tools">CSS</span>
+                            </div>
+
+                            <div class="col-11 project-text-wrapper">
+                                <h2 class="bold-font">2-player realtime game</h2>
+                                <p class="project-text">This game was a schoolproject that I did with two other students. The task was to create a simple 2-player realtime game where the goal is to click on a virus as quickly as possible to exterminate it. Points will be awarded to the player with the most rapid reaction time. Languages that we used was Node.js, Express, and Socket.io.</p>
+                            </div>
+
+                            <div class="col-11 d-flex flex-row justify-content-start my-3">
+                                <div>
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit repo</button>
+                                </div>
+                
+                                <div class="mx-5">
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="card card-border col-12 col-md-6 my-4 d-flex flex-column flex-md-row">
+                    <div class="my-2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="col-11">
+                                <img class="img-float col-12" src="../assets/images/photoAPI_screenshot.jpg" alt="project image">
+                            </div>
+
+                            <div class="col-11 my-4 d-flex flex-wrap">
+                                <span class="tools">MySQL</span>
+                                <span class="tools">Express</span>
+                                <span class="tools">JavaScript</span>
+                            </div>
+
+                            <div class="col-11 project-text-wrapper">
+                                <h2 class="bold-font">My photos REST API</h2>
+                                <p class="project-text">This is a simple REST API with mySQL database that works as backend for a future photo app. Users can registrer, upload albums and photos and see their own albums and photos. For this assignment I used SQL and NodeJS. </p>
+                            </div>
+
+                            <div class="col-11 d-flex flex-row justify-content-start my-3">
+                                <div>
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit repo</button>
+                                </div>
+                
+                                <div class="mx-5">
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="card card-border col-12 col-md-6 my-4">
+                    <div class="my-2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="col-11">
+                                <img class="img-float col-12" src="../assets/images/almi.jpg" alt="project image">
+                            </div>
+
+                            <div class="col-11 my-4 d-flex flex-wrap">
+                                <span class="tools">HTML</span>
+                                <span class="tools">CSS</span>
+                                <span class="tools">JavaScript</span>
+                                <span class="tools">Bootstrap</span>
+                            </div>
+
+                            <div class="col-11 project-text-wrapper">
+                                <h2 class="bold-font">Almi one-pager design</h2>
+                                <p class="project-text">Almi was a schoolproject that I worked on by myself. The task was to create a one-pager and to rebrand an existing website with an imaginary new product. I started with a lo-fi wireframe for mobile and desktop and moved on to a hi-fi wireframe. In the end I created the website using HTML, CSS and JavaScrip.</p>
+                            </div>
+
+                            <div class="col-11 d-flex flex-row justify-content-start my-3">
+                                <div>
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit repo</button>
+                                </div>
+                
+                                <div class="mx-5">
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="card card-border col-12 col-md-6 my-4">
+                    <div class="my-2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="col-11">
+                                <img class="img-float col-12" src="../assets/images/guess_classmate_screenshot.jpg" alt="project image">
+                            </div>
+
+                            <div class="col-11 my-4 d-flex flex-wrap">
+                                <span class="tools">HTML</span>
+                                <span class="tools">CSS</span>
+                                <span class="tools">JavaScript</span>
+                                <span class="tools">Bootstrap</span>
+                            </div>
+
+                            <div class="col-11 project-text-wrapper">
+                                <h2 class="bold-font">Classmate-quiz</h2>
+                                <p class="project-text">Created a guessing game based on classmates using HTML CSS, Vanilla JavaScript and Bootstrap 5. The task was to create a game. The game should be displaying one image and four names, where one of the names is correct.</p>
+                            </div>
+
+                            <div class="col-11 d-flex flex-row justify-content-start my-3">
+                                <div>
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit repo</button>
+                                </div>
+                
+                                <div class="mx-5">
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="card card-border col-12 col-md-6 my-4">
+                    <div class="my-2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="col-11">
+                                <img class="img-float col-12" src="../assets/images/pocketbox.jpg" alt="project image">
+                            </div>
+
+                            <div class="col-11 my-4 d-flex flex-wrap">
+                                <span class="tools">Figma</span>
+                                <span class="tools">UX/UI</span>
+                            </div>
+
+                            <div class="col-11 project-text-wrapper">
+                                <h2 class="bold-font">UX-design project</h2>
+                                <p class="project-text">PocketBox was a UX schoolproject that I worked on with 3 other classmates. We got a brief about a podcast app and from that we continued with personas, flowcharts, wireframes, prototyp and finally a mockup made in Figma to visulize how the poddcast app could look like.</p>
+                            </div>
+
+                            <div class="col-11 d-flex flex-row justify-content-start my-3">
+                                <div>
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit Figma</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="card card-border col-12 col-md-6 my-4">
+                    <div class="my-2">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="col-11">
+                                <img class="img-float col-12" src="../assets/images/foss_screenshot.jpg" alt="project image">
+                            </div>
+
+                            <div class="col-11 my-4 d-flex flex-wrap">
+                                <span class="tools">HTML</span>
+                                <span class="tools">CSS</span>
+                            </div>
+
+                            <div class="col-11 project-text-wrapper">
+                                <h2 class="bold-font">My first HTML & CSS replica</h2>
+                                <p class="project-text">The task was to recreate a site from a design that was given by the teacher. The site was created with HTML and CSS and had to be responsive and mobile-friendly.</p>
+                            </div>
+
+                            <div class="col-11 d-flex flex-row justify-content-start my-3">
+                                <div>
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit repo</button>
+                                </div>
+                
+                                <div class="mx-5">
+                                    <button type="button" class="btn bg-darkblue beige-font bold-font">Visit page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+
+</main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

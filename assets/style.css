@@ -36,6 +36,10 @@ body {
     font-weight: 600;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .light-font {
     font-weight: 50;
 }
@@ -60,9 +64,13 @@ body {
     font-size: 1.25em;
 }
 
+.italic-p2 {
+    padding-right: 2em;
+    font-style: italic;
+}
+
 
 /** Header **/
-
 header nav {
     font-size: 25px;
 }
@@ -82,7 +90,11 @@ header nav {
     background-color: white;
     border: solid 4px #E6D7C3;
     border-radius: 2em;
-    margin-bottom: 1.5em
+    padding: 2em;
+}
+
+.project-text-wrapper {
+    height: 200px;
 }
 
 .btn-container {
@@ -90,9 +102,38 @@ header nav {
     margin-bottom: 3em;
 }
 
+.btn {
+    padding: 1em;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #EFBEA5;
+    padding: 1.15em;
+}
+
+.btn-orange {
+    color: #173A52;
+}
+
+.btn-orange:hover {
+    color: #28668f;
+}
+
 .card {
-    border-bottom: #E6D7C3 4px solid;
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: none;
+}
+
+.card-border {
+    border-bottom: #E6D7C3 4px solid;
+}
+
+.tools {
+    background-color: #F5EFED;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
 }
