@@ -94,7 +94,7 @@ header nav {
 }
 
 .project-text-wrapper {
-    height: 200px;
+    height: 250px;
 }
 
 .btn-container {
@@ -138,6 +138,11 @@ header nav {
     margin-bottom: 0.5em;
 }
 
+.skills-wrapper {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .skill-item-wrapper {
     display: flex;
     flex-direction: column;
@@ -151,4 +156,30 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hightligt-font {
+    font-size: 20px;
+    color: #A85B48;
+    font-weight: bold;
+}
+
+/** Footer **/
+footer a {
+    font-size: 16px;
+}
+.contact-style {
+    color: #F5EFED;
+    text-decoration: none;
+}
+
+.contact-style:hover {
+    font-size: 17px;
+    color: #f3dfd9;
+    text-decoration: underline;
+}
+
+.contact-item {
+    padding: 2.5em;
+    font-weight: lighter;
 }
